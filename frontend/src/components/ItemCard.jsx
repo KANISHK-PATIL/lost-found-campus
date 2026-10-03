@@ -39,7 +39,7 @@ function ItemCard({ item }) {
         </p>
 
         <p className="mb-2 text-sm text-gray-600">
-          📍 {item.location}
+           {item.location}
         </p>
 
         <p className="mb-4 text-sm text-gray-600">
