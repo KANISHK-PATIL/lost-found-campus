@@ -24,7 +24,7 @@ const itemSchema = new mongoose.Schema(
         },
         location: {
             type: String,
-            enum: ['Library', 'Canteen', 'Hostel', 'Main gate', 'Academic Block', 'Sports Complex', 'Parking', 'Other'],
+            enum: ['Library', 'Canteen', 'Hostel', 'Main Gate', 'Academic Block', 'Sports Complex', 'Parking', 'Other'],
             required: true
         },
         date: {
